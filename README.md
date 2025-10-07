@@ -1,4 +1,4 @@
-#  API Petshop Simples
+#  API Petshop
 
 
 API básica para petshop com TypeScript, Prisma e Zod.
