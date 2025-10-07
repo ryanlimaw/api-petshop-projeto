@@ -1,9 +1,9 @@
-# 🐾 API Petshop Simples
+#  API Petshop Simples
 
 
 API básica para petshop com TypeScript, Prisma e Zod.
 
-## 🚀 Como rodar
+## Como rodar
 
 ```bash
 # 1. Instalar dependências
@@ -19,11 +19,11 @@ npx prisma db push
 npx ts-node src/server.ts
 ```
 
-## 📚 Documentação Swagger
+## Documentação Swagger
 
 Acesse: `http://localhost:3000/api-docs`
 
-## 📋 Endpoints
+## Endpoints
 
 ### Clientes
 - `GET /api/clientes` - Listar clientes
@@ -35,19 +35,19 @@ Acesse: `http://localhost:3000/api-docs`
 ### Pets
 - `GET /api/pets` - Listar pets
 - `GET /api/pets/:id` - Buscar pet
-- `POST /api/pets` - **Adicionar pet** ⭐
+- `POST /api/pets` - **Adicionar pet** 
 - `PUT /api/pets/:id` - Atualizar pet
 - `DELETE /api/pets/:id` - Deletar pet
 
 ### Serviços
-- `GET /api/servicos` - **Listar serviços** ⭐
+- `GET /api/servicos` - **Listar serviços** 
 - `GET /api/servicos/:id` - Buscar serviço
-- `POST /api/servicos` - **Adicionar serviço** ⭐
+- `POST /api/servicos` - **Adicionar serviço** 
 - `PUT /api/servicos/:id` - Atualizar serviço
 - `PUT /api/servicos/:id/realizado` - Marcar como realizado
 - `DELETE /api/servicos/:id` - Deletar serviço
 
-## 📝 Exemplos
+## Exemplos
 
 ### Criar Cliente
 ```json
